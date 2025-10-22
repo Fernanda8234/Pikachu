@@ -1,0 +1,82 @@
+body {
+    background-color: #FFE943;
+    font-family: Righteous, sans-serif;
+}
+
+header {
+    background-color: tomato;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+
+.pokemon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: aliceblue;
+    text-align: center;
+    gap: 100px;
+}
+
+
+.download button {
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 200px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    z-index: -999;
+    position: absolute;
+    transform: translate(-50%, -80%);
+}
+
+main {
+    padding: 20vh;
+}
+
+.container {
+    align-items: center;
+    padding: 25vh;
+    display: block;
+}
+
+.pikachu {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 900;
+}
+
+.click a {
+    display: flex;
+    align-items: center;
+    display: end;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-weight: 100;
+    padding: 0px 15px;
+}
