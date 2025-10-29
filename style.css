@@ -81,3 +81,32 @@ footer {
     font-weight: 100;
     padding: 0px 15px;
 }
+
+/*tablet*/
+@media (max-width:768px) {
+    .menu {
+        gap: 10px;
+        font-size: 14px;
+    }
+    .download img{
+        display: none;
+    }
+    .download span {
+        display: none;
+    }
+    h2 {
+        font-size: 175px;
+    }
+    .pikachu {
+        transform: translate(-60%, -45%);
+    }
+    .botoes {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-50%);
+    }
+    .click {
+        transform: translateY(-50%);
+    }
+}
