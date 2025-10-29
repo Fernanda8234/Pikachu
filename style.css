@@ -14,23 +14,26 @@ header {
 
 .pokemon {
     display: flex;
-    text-align: center;
     align-items: center;
 }
 
 .menu {
-    text-align: center;
+    display: flex;
     gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.download img {
+    transform: translateY(25%);
+}
 .download button {
     padding: 15px 15px;
     background-color: white;
     border-radius: 30px;
     border: 0;
-    margin-left: 200px;
-
+    margin-left: 15px;
+    box-shadow:2px 2.5px 2.5px;
 }
 
 h2 {
@@ -43,7 +46,7 @@ h2 {
     left: 50%;
     z-index: -999;
     position: absolute;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -45%);
 }
 
 main {
@@ -61,7 +64,7 @@ main {
     display: flex;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-60%, -55%);
     z-index: 900;
 }
 
