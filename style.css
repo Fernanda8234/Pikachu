@@ -110,3 +110,46 @@ footer {
         transform: translateY(-50%);
     }
 }
+/*celular*/
+@media (max-width:480px) {
+    .pokemon img{
+        width: 35%;
+    }
+    .pokemon {
+        font-size: 16px;
+    }
+    .menu {
+       display: none;
+    }
+    .download img{
+        display: none;
+    }
+    .download span {
+        display: none;
+    }
+    .download button{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 95px;
+        transform: translate(-50%, -50%);
+    }
+    .pikachu {
+        width: 65%;
+        transform: translate(-50%, -50%);
+    }
+    .botoes {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-90%);
+    }
+    .click {
+        transform: translateY(-200%);
+        font-size: 12px;
+    }
+    .click img {
+        width: 25%;
+    }
+}
